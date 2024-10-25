@@ -1,4 +1,4 @@
-import { describe, expect, test } from "vitest";
+import { describe, expect, test } from "bun:test";
 import exampleInventoryBatchResult from "./example-inventory-batch-result.json"
 
 type ArrayElement<ArrayType extends readonly unknown[]> =
